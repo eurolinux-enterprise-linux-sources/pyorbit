@@ -2,7 +2,7 @@
 
 Name: pyorbit
 Version: 2.24.0
-Release: 13%{?dist}
+Release: 15%{?dist}
 License: LGPLv2+
 Group: Development/Languages
 Summary: Python bindings for ORBit2
@@ -65,6 +65,12 @@ find $RPM_BUILD_ROOT -name "*.la" -exec rm -f {} ';'
 %{_libdir}/pkgconfig/*.pc
 
 %changelog
+* Tue Jan 28 2014 Daniel Mach <dmach@redhat.com> - 2.24.0-15
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.24.0-14
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.24.0-13
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
